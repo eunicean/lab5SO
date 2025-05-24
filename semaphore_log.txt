@@ -1,0 +1,85 @@
+Iniciando programa con semáforos
+Recursos iniciales: 10
+Creando threads: 5
+
+Thread 0 creado
+Thread 1 creado
+Iniciando thread 0 - (Iteración 1) Intentando tomar recurso
+ 0 - Semaforo abierto con éxito
+ 0 - (!) Recurso tomado. Recursos restantes: 9
+ 0 - Usando recurso por 2 segundos
+Thread 2 creado
+Iniciando thread 1 - (Iteración 1) Intentando tomar recurso
+ 1 - Semaforo abierto con éxito
+ 1 - (!) Recurso tomado. Recursos restantes: 8
+ 1 - Usando recurso por 3 segundos
+Thread 3 creado
+Iniciando thread 3 - (Iteración 1) Intentando tomar recurso
+ 3 - Semaforo abierto con éxito
+ 3 - (!) Recurso tomado. Recursos restantes: 7
+ 3 - Usando recurso por 2 segundos
+Iniciando thread 2 - (Iteración 1) Intentando tomar recurso
+ 2 - Semaforo abierto con éxito
+ 2 - (!) Recurso tomado. Recursos restantes: 6
+Thread 4 creado
+ 2 - Usando recurso por 1 segundos
+Iniciando thread 4 - (Iteración 1) Intentando tomar recurso
+ 4 - Semaforo abierto con éxito
+ 4 - (!) Recurso tomado. Recursos restantes: 5
+ 4 - Usando recurso por 1 segundos
+ 4 - Recurso devuelto. Recursos totales: 6
+Iniciando thread 4 - (Iteración 2) Intentando tomar recurso
+ 4 - Semaforo abierto con éxito
+ 4 - (!) Recurso tomado. Recursos restantes: 5
+ 4 - Usando recurso por 3 segundos
+ 2 - Recurso devuelto. Recursos totales: 6
+Iniciando thread 2 - (Iteración 2) Intentando tomar recurso
+ 2 - Semaforo abierto con éxito
+ 2 - (!) Recurso tomado. Recursos restantes: 5
+ 2 - Usando recurso por 2 segundos
+ 0 - Recurso devuelto. Recursos totales: 6
+Iniciando thread 0 - (Iteración 2) Intentando tomar recurso
+ 0 - Semaforo abierto con éxito
+ 0 - (!) Recurso tomado. Recursos restantes: 5
+ 0 - Usando recurso por 1 segundos
+ 3 - Recurso devuelto. Recursos totales: 6
+Iniciando thread 3 - (Iteración 2) Intentando tomar recurso
+ 3 - Semaforo abierto con éxito
+ 3 - (!) Recurso tomado. Recursos restantes: 5
+ 3 - Usando recurso por 1 segundos
+ 1 - Recurso devuelto. Recursos totales: 6
+Iniciando thread 1 - (Iteración 2) Intentando tomar recurso
+ 1 - Semaforo abierto con éxito
+ 1 - (!) Recurso tomado. Recursos restantes: 5
+ 1 - Usando recurso por 3 segundos
+ 3 - Recurso devuelto. Recursos totales: 6
+Iniciando thread 3 - (Iteración 3) Intentando tomar recurso
+ 3 - Semaforo abierto con éxito
+ 3 - (!) Recurso tomado. Recursos restantes: 5
+ 3 - Usando recurso por 1 segundos
+ 0 - Recurso devuelto. Recursos totales: 6
+Iniciando thread 0 - (Iteración 3) Intentando tomar recurso
+ 0 - Semaforo abierto con éxito
+ 0 - (!) Recurso tomado. Recursos restantes: 5
+ 0 - Usando recurso por 2 segundos
+ 2 - Recurso devuelto. Recursos totales: 6
+Iniciando thread 2 - (Iteración 3) Intentando tomar recurso
+ 2 - Semaforo abierto con éxito
+ 2 - (!) Recurso tomado. Recursos restantes: 5
+ 2 - Usando recurso por 1 segundos
+ 4 - Recurso devuelto. Recursos totales: 6
+Iniciando thread 4 - (Iteración 3) Intentando tomar recurso
+ 4 - Semaforo abierto con éxito
+ 4 - (!) Recurso tomado. Recursos restantes: 5
+ 4 - Usando recurso por 1 segundos
+ 3 - Recurso devuelto. Recursos totales: 6
+ 2 - Recurso devuelto. Recursos totales: 7
+ 4 - Recurso devuelto. Recursos totales: 8
+ 0 - Recurso devuelto. Recursos totales: 9
+ 1 - Recurso devuelto. Recursos totales: 10
+Iniciando thread 1 - (Iteración 3) Intentando tomar recurso
+ 1 - Semaforo abierto con éxito
+ 1 - (!) Recurso tomado. Recursos restantes: 9
+ 1 - Usando recurso por 1 segundos
+ 1 - Recurso devuelto. Recursos totales: 10
+Todos los threads han terminado. Recursos finales: 10
