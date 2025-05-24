@@ -1,0 +1,108 @@
+Iniciando programa con monitor
+Recursos iniciales: 10
+Creando threads: 5
+
+Thread 0 creado
+Thread 1 creado
+Thread 2 creado
+Thread 3 creado
+Iniciando thread 2 - (Iteración 1) Se consumirán 2 recursos
+Iniciando thread 2 - Intentando tomar 2 recursos
+ 2 - Mutex adquirido, entrando al monitor
+ 2 - (!) 2 recursos tomados. Recursos restantes: 8
+Thread 4 creado
+ 2 - Usando 2 recursos por 3 segundos
+Iniciando thread 0 - (Iteración 1) Se consumirán 3 recursos
+Iniciando thread 1 - (Iteración 1) Se consumirán 3 recursos
+Iniciando thread 0 - Intentando tomar 3 recursos
+ 0 - Mutex adquirido, entrando al monitor
+ 0 - (!) 3 recursos tomados. Recursos restantes: 5
+ 0 - Usando 3 recursos por 2 segundos
+Iniciando thread 1 - Intentando tomar 3 recursos
+ 1 - Mutex adquirido, entrando al monitor
+ 1 - (!) 3 recursos tomados. Recursos restantes: 2
+ 1 - Usando 3 recursos por 1 segundos
+Iniciando thread 4 - (Iteración 1) Se consumirán 2 recursos
+Iniciando thread 4 - Intentando tomar 2 recursos
+ 4 - Mutex adquirido, entrando al monitor
+ 4 - (!) 2 recursos tomados. Recursos restantes: 0
+ 4 - Usando 2 recursos por 2 segundos
+Iniciando thread 3 - (Iteración 1) Se consumirán 2 recursos
+Iniciando thread 3 - Intentando tomar 2 recursos
+ 3 - NELSON! Recursos actuales: 0 (se necesita 2)
+ 1 - 3 recursos devueltos. Recursos totales: 3
+Iniciando thread 1 - (Iteración 2) Se consumirán 2 recursos
+Iniciando thread 1 - Intentando tomar 2 recursos
+ 1 - Mutex adquirido, entrando al monitor
+ 1 - (!) 2 recursos tomados. Recursos restantes: 1
+ 1 - Usando 2 recursos por 1 segundos
+ 3 - NELSON! Recursos actuales: 1 (se necesita 2)
+ 0 - 3 recursos devueltos. Recursos totales: 4
+Iniciando thread 0 - (Iteración 2) Se consumirán 3 recursos
+Iniciando thread 0 - Intentando tomar 3 recursos
+ 0 - Mutex adquirido, entrando al monitor
+ 0 - (!) 3 recursos tomados. Recursos restantes: 1
+ 0 - Usando 3 recursos por 1 segundos
+ 3 - NELSON! Recursos actuales: 1 (se necesita 2)
+ 4 - 2 recursos devueltos. Recursos totales: 3
+Iniciando thread 4 - (Iteración 2) Se consumirán 3 recursos
+Iniciando thread 4 - Intentando tomar 3 recursos
+ 4 - Mutex adquirido, entrando al monitor
+ 4 - (!) 3 recursos tomados. Recursos restantes: 0
+ 3 - NELSON! Recursos actuales: 0 (se necesita 2)
+ 4 - Usando 3 recursos por 3 segundos
+ 1 - 2 recursos devueltos. Recursos totales: 2
+Iniciando thread 1 - (Iteración 3) Se consumirán 1 recursos
+Iniciando thread 1 - Intentando tomar 1 recursos
+ 1 - Mutex adquirido, entrando al monitor
+ 1 - (!) 1 recursos tomados. Recursos restantes: 1
+ 1 - Usando 1 recursos por 2 segundos
+ 3 - NELSON! Recursos actuales: 1 (se necesita 2)
+ 2 - 2 recursos devueltos. Recursos totales: 3
+Iniciando thread 2 - (Iteración 2) Se consumirán 3 recursos
+Iniciando thread 2 - Intentando tomar 3 recursos
+ 2 - Mutex adquirido, entrando al monitor
+ 2 - (!) 3 recursos tomados. Recursos restantes: 0
+ 2 - Usando 3 recursos por 2 segundos
+ 3 - NELSON! Recursos actuales: 0 (se necesita 2)
+ 0 - 3 recursos devueltos. Recursos totales: 3
+Iniciando thread 0 - (Iteración 3) Se consumirán 3 recursos
+Iniciando thread 0 - Intentando tomar 3 recursos
+ 0 - Mutex adquirido, entrando al monitor
+ 0 - (!) 3 recursos tomados. Recursos restantes: 0
+ 0 - Usando 3 recursos por 1 segundos
+ 3 - NELSON! Recursos actuales: 0 (se necesita 2)
+ 1 - 1 recursos devueltos. Recursos totales: 1
+ 0 - 3 recursos devueltos. Recursos totales: 4
+ 3 - Mutex adquirido, entrando al monitor
+ 3 - (!) 2 recursos tomados. Recursos restantes: 2
+ 3 - Usando 2 recursos por 2 segundos
+ 2 - 3 recursos devueltos. Recursos totales: 5
+Iniciando thread 2 - (Iteración 3) Se consumirán 3 recursos
+Iniciando thread 2 - Intentando tomar 3 recursos
+ 2 - Mutex adquirido, entrando al monitor
+ 2 - (!) 3 recursos tomados. Recursos restantes: 2
+ 2 - Usando 3 recursos por 3 segundos
+ 4 - 3 recursos devueltos. Recursos totales: 5
+Iniciando thread 4 - (Iteración 3) Se consumirán 1 recursos
+Iniciando thread 4 - Intentando tomar 1 recursos
+ 4 - Mutex adquirido, entrando al monitor
+ 4 - (!) 1 recursos tomados. Recursos restantes: 4
+ 4 - Usando 1 recursos por 2 segundos
+ 3 - 2 recursos devueltos. Recursos totales: 6
+Iniciando thread 3 - (Iteración 2) Se consumirán 3 recursos
+Iniciando thread 3 - Intentando tomar 3 recursos
+ 3 - Mutex adquirido, entrando al monitor
+ 3 - (!) 3 recursos tomados. Recursos restantes: 3
+ 3 - Usando 3 recursos por 2 segundos
+ 4 - 1 recursos devueltos. Recursos totales: 4
+ 2 - 3 recursos devueltos. Recursos totales: 7
+ 3 - 3 recursos devueltos. Recursos totales: 10
+Iniciando thread 3 - (Iteración 3) Se consumirán 1 recursos
+Iniciando thread 3 - Intentando tomar 1 recursos
+ 3 - Mutex adquirido, entrando al monitor
+ 3 - (!) 1 recursos tomados. Recursos restantes: 9
+ 3 - Usando 1 recursos por 3 segundos
+ 3 - 1 recursos devueltos. Recursos totales: 10
+
+Todos los threads han terminado. Recursos finales: 10
